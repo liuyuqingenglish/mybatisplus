@@ -1,0 +1,11 @@
+server:
+  port: 8099
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://10.6.4.182:5432/test
+    username: postgres
+    password: 123456
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
